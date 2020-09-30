@@ -10,6 +10,7 @@ html {
 body {
   background: #eee;
   padding: 0;
+  background-image: url('https://www.transparenttextures.com/patterns/cutcube.png');
 }
 
 header {
@@ -38,7 +39,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
 } */
-form{
+form.create-note {
   position: relative;
   width: 480px;
   background: #fff;
@@ -47,9 +48,9 @@ form{
   border-radius: 7px;
   box-shadow: 0 1px 5px #8a8a8a;
 }
-form input,
-form textarea{
-  width:100%;
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
   border: none;
   outline: none;
   padding: 4px;
@@ -58,11 +59,11 @@ form textarea{
   font-family: inherit;
 }
 
-form button{
+form.create-note button {
   position: absolute;
   right: 18px;
-  bottom:-18px;
-  background:#ffd900;
+  bottom: -18px;
+  background: #ffd900;
   border: none;
   border-radius: 50%;
   color: #fff;
@@ -70,6 +71,7 @@ form button{
   height: 36px;
   cursor: pointer;
   outline: none;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.3);
 }
 
 .note {
